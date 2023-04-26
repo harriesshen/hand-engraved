@@ -1,0 +1,359 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 17px;
+    font-weight: 400;
+}
+#wrapper{
+    width: 1200px;
+    margin: 0px auto;
+}
+header{
+    background-color: black;
+}
+.center{
+    margin: 0px auto;
+}
+.headerNav{
+    height: 44px;
+    font-size: 12px;
+}
+.NavImg{
+    width: 36px;
+    height: 44px;
+    overflow: hidden;
+}
+.NavUl{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 10%;
+}
+.NavLi{
+    display: flex;
+    align-items: center;
+    padding: 0px 1%;
+}
+.NavLi >a{
+    color:grey;
+}
+.NavLi >a:hover{
+    color:whitesmoke;
+}
+.searchImg{
+    width: 20px;
+}
+.bagImg{
+    width: 20px;
+    height: 44px;
+}
+.content{
+    background-color:whitesmoke;
+}
+.titleMenu{
+    width: auto;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+.contentTitle{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 17%;
+}
+.contentMenu{
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap;  */
+    margin-left:45%;    
+}
+.Menu{
+    font-size: 8px;
+    width: 100%;
+    display: flex;
+}
+.Menu2{
+    margin:0 5%;
+}
+.Menu1{
+    margin:0 5%;
+}
+.Menu,.contentTitle >a:visited{
+    color: black;
+}
+.Menu >div>a:hover{
+    color: blue;
+}
+.buy{
+    width: 50%;
+}
+.circleBTN{
+    border-radius: 42%;
+    background-color: blue;
+    color: white;
+    border-color: white;
+}
+.module_content{
+    background-color: #f5f5f7be;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.module_content a{
+    color: #06c;
+}
+.module_content a:hover{
+    text-decoration: underline;
+}
+.iPhone12{
+    background-image: url(../images/iphone.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px;
+}
+.shoponline{
+    padding: 12px 0px;
+    text-align: center;
+}
+.headline{
+    padding-top: 44px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1d1d1f;
+}
+.subhead{
+    margin-top: 6px;
+    font-size: 28px;
+    text-align: center;
+}
+.price_div{
+    margin-top: 13.6px;
+}
+.price{
+    color:#86868b;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 6.8px;
+}
+.link{
+    margin-top: 13.65px;
+    font-size: 21px;
+    display: inline-block;
+}
+.linkColor{
+    color:rgb(94, 151, 207);
+}
+.link_right{
+    margin-left: 35px;
+}
+.iPhone12_Pro{
+    background-image: url(../images/iphone3.jpg);
+    height: 748px;
+    font-size: 40px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+}
+.iPhone12_Pro .headline,.iPhone12_Pro .subhead{
+    color:#f5f5f7;
+}
+.iPad_Pro{
+    background-image: url(../images/ipad.jpg);
+    height: 700px;
+    font-size: 40px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+}.iPad_Pro .headline,.iPad_Pro .subhead{
+    color:#f5f5f7;
+}
+.accessory {
+    overflow: hidden;
+    display: flex;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.accessory h2{
+    font-size: 40px;
+}
+.accessory h3{
+    font-size: 21px;
+}
+.accessory link{
+    font-size: 17px;
+    font-weight: 400;
+}
+.accessoryImg{
+    width: 600px;
+    padding-right: 5px;
+}
+.iMacBg{
+    background-image: url(../images/mac.jpg);
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.iWatchBg{
+    background-image: url(../images/iwatch.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.watchBg{
+    background-color: black;
+}
+.watchBg .subhead{
+    color: white;
+    font-size: 21px;
+}
+.discountBg{
+    background-image: url(../images/bg.jpg);
+    width: 600px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.applemusicBg{
+    background-image: url(../images/bg2.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.applemusicBg .headline{
+    color: white;
+    font-size: 30px;
+}
+.applemusicBg img{
+    width: 30px;
+}
+.movieBg{
+    background-image: url(../images/bg3.jpg);
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}.movieBg img{
+    width: 30px;
+}
+.movieBg .headline{
+    color: white;
+    font-size: 30px;
+}
+.movietext{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 200px;
+}
+.movieNextsesson{
+    margin-top: 11px;
+}
+.movieNextsesson h5{
+    color: white;
+    font-weight: 500px;
+}
+.workBg{
+    background-image: url(../images/bg4.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.workBg div{
+    padding-top: 260px;
+    padding-right: 150px;
+}
+.workBg a{
+    font-size: 14px;
+}
+.workBg a:hover{
+    text-decoration: underline;
+}
+
+.contentSale>div>a:hover{
+    border-bottom: 3px solid blue;
+}
+footer{
+    background-color:gainsboro;
+    display: flex;
+    font-size: 8px;
+}
+.footerDiv{
+    margin:0px 10%;
+}
+.footerSection{
+    margin: 2% 0px;
+    color:#86868b;
+    font-family: "SF Pro TC","HanHei TC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.footerNav{
+    display: flex;
+    flex-wrap:nowrap;
+}
+ul{
+    list-style-type: none;
+}
+.footerOl>li,.footerUl>li{
+    padding-top: 10px;
+}
+.footerproductUl{
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+.footerproductUl>li{
+    padding-top: 10px;
+}
+.footerproductUl a{
+    color: #515154;
+    
+}
+.footerproductUl a:hover{
+    text-decoration: underline;
+}
+.footerNavDiv{
+    margin: 1% 0px;
+    margin-right: 100px;
+}
+.footerNavDiv>label{
+    font-weight: bold;
+    
+}
+.footerSectionDiv a{
+    color: #06c;
+}
+.footerSectionDiv a:hover{
+    text-decoration: underline;
+}
+.footerSectionContent{
+    display: flex;
+}
+.footerSectionContentDiv{
+    display: flex;
+    margin-left: 50px;
+}
+.footerSectionContentDiv>a{
+    margin:0px 10px;
+    color: black;
+}
+.footerSectionContentDiv>a:hover{
+    text-decoration: underline;
+}
+.footerSectionDiv,.footerSectionContent{
+    margin:15px 0px;
+}
